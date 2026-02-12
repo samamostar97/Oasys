@@ -1,0 +1,6 @@
+@Oasys.API_HostAddress = http://localhost:5195
+
+GET {{Oasys.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
