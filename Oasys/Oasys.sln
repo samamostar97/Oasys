@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.0.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oasys.Domain", "Oasys.Domain\Oasys.Domain.csproj", "{60717A0A-D0FF-4F76-9D95-45DEA4696C21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oasys.Application", "Oasys.Application\Oasys.Application.csproj", "{83106F85-1D86-44E4-A710-718227647857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oasys.Infrastructure", "Oasys.Infrastructure\Oasys.Infrastructure.csproj", "{1F0E208F-3389-4464-A3A2-1162247C21CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oasys.API", "Oasys.API\Oasys.API.csproj", "{CFDA9EC9-CD11-4132-B544-7CF4A1913020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oasys.Domain.Tests", "tests\Oasys.Domain.Tests\Oasys.Domain.Tests.csproj", "{9D0B111D-BF0C-4F0B-A18E-6B1279A8656F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oasys.Application.Tests", "tests\Oasys.Application.Tests\Oasys.Application.Tests.csproj", "{36E3A2E2-8796-4EB6-B7A5-7D628FCEE7B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oasys.Integration.Tests", "tests\Oasys.Integration.Tests\Oasys.Integration.Tests.csproj", "{187E5951-BC63-4F6D-B11E-2047FA1D7014}"
+EndProject
+Global
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+        Debug|Any CPU = Debug|Any CPU
+        Release|Any CPU = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {60717A0A-D0FF-4F76-9D95-45DEA4696C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {60717A0A-D0FF-4F76-9D95-45DEA4696C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {83106F85-1D86-44E4-A710-718227647857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {83106F85-1D86-44E4-A710-718227647857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {1F0E208F-3389-4464-A3A2-1162247C21CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {1F0E208F-3389-4464-A3A2-1162247C21CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {CFDA9EC9-CD11-4132-B544-7CF4A1913020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {CFDA9EC9-CD11-4132-B544-7CF4A1913020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    EndGlobalSection
+EndGlobal
